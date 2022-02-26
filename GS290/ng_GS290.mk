@@ -20,15 +20,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/droid-ng/config/common_full_phone.mk)
 
 # Inherit from GS290 device
 $(call inherit-product, device/gigaset/GS290-unified/device.mk)
 
+TARGET_GAPPS_ARCH := arm64
+
 PRODUCT_BRAND := gigaset
 PRODUCT_DEVICE := GS290
 PRODUCT_MANUFACTURER := Gigaset
-PRODUCT_NAME := lineage_GS290
+PRODUCT_NAME := ng_GS290
 PRODUCT_MODEL := GS290
 
 # Build info

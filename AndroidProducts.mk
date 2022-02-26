@@ -15,13 +15,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    lineage_GS290:$(LOCAL_DIR)/GS290/lineage_GS290.mk \
-    lineage_yggdrasil:$(LOCAL_DIR)/yggdrasil/lineage_yggdrasil.mk
+    ng_GS290:$(LOCAL_DIR)/GS290/ng_GS290.mk \
+    ng_yggdrasil:$(LOCAL_DIR)/yggdrasil/ng_yggdrasil.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_GS290-user \
-    lineage_GS290-userdebug \
-    lineage_GS290-eng \
-    lineage_yggdrasil-user \
-    lineage_yggdrasil-userdebug \
-    lineage_yggdrasil-eng
+    ng_GS290-user \
+    ng_GS290-userdebug \
+    ng_GS290-eng \
+    ng_yggdrasil-user \
+    ng_yggdrasil-userdebug \
+    ng_yggdrasil-eng
